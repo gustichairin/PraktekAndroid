@@ -27,7 +27,7 @@ class HitungActivity : AppCompatActivity() {
                 editLebar.error = "Data Kosong"
             }
 
-            if(stringTinggi.equals("")){
+            if(stringTinggi.== ""){
                 isEmptyField = true
                 editTinggi.error = "Data Kosong"
             }
